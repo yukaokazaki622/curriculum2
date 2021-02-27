@@ -40,9 +40,9 @@ public class Task1_5 {
         *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
     for (int kuku = 1; kuku <= 9; kuku++){
-        System.out.print( kuku + " | ");
+        System.out.print( kuku + " |");
         for (int kakezan = 1; kakezan <= 9; kakezan++) {
-            System.out.print( " | " + kuku * kakezan );
+            System.out.print( "| " + kuku * kakezan );
        }
 
         System.out.println(" | ");
