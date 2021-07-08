@@ -1,0 +1,54 @@
+@media screen and (max-width: 479px) {
+    #wrapper {/*全体の横幅*/
+        width: 200px;
+    }
+    .header {
+        width: 200px;
+        height: 200px;
+    }
+    .header-class{
+        float: none;
+        width:  60px;
+        height: 160px;
+        top: 20px;
+        right: 70px;
+        bottom: 20px;
+    }
+    .box{
+        float:none;
+        width: 40px;
+        height: 40px;
+        border-top: 5px solid white;
+        border-right: 10px solid white;
+        border-bottom: 10px solid white;
+    }
+    .box:first-child{/*要素の最初(first)に反映させるやつ？(last)は最後？*/
+        float:none;
+        width: 40px;
+        height: 40px;
+        border-top: 10px solid white;        
+    }
+    .left {
+        float:none;
+        width: 200px;
+        height: 100px;
+    }
+    .right{
+        width: 200px;
+        height: 200px;
+    }
+    .right-class {
+        margin: auto;
+        position:static;
+        float:none;
+        width: 140px;
+        height:160px;
+        margin-top:20px;
+        bottom:20px;
+
+    }
+    .footer {
+        width: 200px;
+        height: 100px;
+    }
+}
